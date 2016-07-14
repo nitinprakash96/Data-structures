@@ -21,16 +21,18 @@ int main() {
 
 	printf("How many numbers> ");
 	scanf("%d", &n);
+
 	for(i = 0; i < n; i++) {
-		printf("Enter the number: \n");
+		printf("\nEnter the number> \n");
 		scanf("%d", &x);
 
-		printf("Enter the position: \n");
+		printf("Enter the postion> ");
 		scanf("%d", &y);
 		Insert(x, y);
 		Print();
 	}
 
+return 0;
 }
 
 void Insert(int data, int n) {
@@ -55,6 +57,7 @@ void Insert(int data, int n) {
 void Print() {
 	struct Node* temp = head;
 	while(temp != NULL) {
+		printf("List is> ");
 		printf("%d ", temp -> data);
 		temp = temp -> next;
 	}
