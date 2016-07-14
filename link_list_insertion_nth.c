@@ -56,8 +56,8 @@ void Insert(int data, int n) {
 
 void Print() {
 	struct Node* temp = head;
+	printf("list is> ");
 	while(temp != NULL) {
-		printf("List is> ");
 		printf("%d ", temp -> data);
 		temp = temp -> next;
 	}
