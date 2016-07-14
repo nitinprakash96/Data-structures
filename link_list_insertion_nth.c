@@ -1,5 +1,5 @@
 /*
-* This program inserts a node at any random position inside a linked list
+* This iterative program inserts a node at any random position inside a linked list
 */
 
 #include<stdio.h>
