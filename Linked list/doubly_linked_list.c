@@ -1,5 +1,5 @@
 /*
-* Doubly linked list implementation
+ Doubly linked list implementation
 */
 
 #include<stdio.h>
@@ -84,7 +84,7 @@ int main() {
 	for(i = 0; i < n; i++) {
 		printf("Enter the number to insert at head> ");
 		scanf("%d", &x);
-		InsertAtHead(x); Print(); ReversePrint();
+		InsertAtHead(x); Print(); ReversePrint();	//To insert at tail, use InsertAtTail function
 	}
 
 return 0;
