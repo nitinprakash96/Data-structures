@@ -1,3 +1,7 @@
+/*
+* This program finds out the highest number in a given array.
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
