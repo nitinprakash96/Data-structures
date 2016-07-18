@@ -1,42 +1,56 @@
+/*
+* Selection Sort Algorithm implementation
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
+void selectionsort(int a[], int n);
+
 int main() {
-	int n, arr[n];
-	int i, j, temp, z;
+	int n, i;
+	
+	printf("How many elements> ");
+		scanf("%d", &n);
+	
+	int a[n];
 
-	printf("Enter the number of elements in the array\n");
-  	scanf("%d", &n);
+	for(i = 0; i < n; i++) {
+		printf("Enter element> ");
+		scanf("%d", &a[i]);
+	}
 
-  	for(i = 0; i < n; i++) {
-      		printf("Enter element> ");
-    		scanf("%d", &arr[i]);
-  	}
+	printf("Sorted array> ");
 
-  	printf("Array before sorting:\n");
-  	for( i = 0; i < n; i++)
-    		printf("%d\t", arr[i]);
-  
-  	printf("\n");
-  	for(i = 0; i < n - 1; i++) {
-		for(j = i + 1; j < n; j++) {
-			if(arr[i] > arr[j]) {
-         			temp = arr[i];
-       				arr[i] = arr[j];
-       				arr[j] = temp; 
-     			}
-    		}
+	selectionsort(a, i);
 
-		printf("After Iteration %d\n", i + 1);
-		for(z = 0; z < n; z++)
-      			printf("%d\t", arr[z]);
-    		printf("\n");
-  	}
-
-	printf("Array after sorting:\n");
 	for(i = 0; i < n; i++)
-		printf("%d\t", arr[i]);
+		printf("%d\t", a[i]);
 	printf("\n");
-
 return 0;
+}
+
+
+void selectionsort(int a[], int n)
+{
+	int i, j, p, tp, min;
+
+	for (i = 0; i < n; i++)
+	{
+		min = a[i];
+		p = i;
+		for (j = i + 1; j < n; j++) {
+			if (a[j] < min) 
+			{
+				min = a[j];
+				p = j;
+			}
+		}
+		if (p != i)
+		{
+			tp = a[i];
+			a[i] = a[p];
+			a[p] = tp;
+		}
+	}
 }
