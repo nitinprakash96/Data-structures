@@ -68,6 +68,7 @@ int main() {
     		printf("The element %d is not present in the array\n", search);
   	else
     		printf("The element %d is in position %d\n", search, ans);
+	//to get 1 indexed search replace ans by ans + 1
   
 return 0;
 }
