@@ -1,3 +1,8 @@
+/*
+* Binary search algorithm implementation.
+* The position determined by the following search algorithm is 0 indexed.
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 
@@ -53,6 +58,11 @@ int main() {
   	}
 
 	int ans = BinarySearch(lower, upper, arr, search);
+
+	printf("Array after being sorted> ");
+	for(i = 0; i< n; i++)
+		printf("%d\t", arr[i]);
+	printf("\n");
 
 	if (ans == -1)
     		printf("The element %d is not present in the array\n", search);
