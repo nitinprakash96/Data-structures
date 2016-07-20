@@ -29,10 +29,16 @@ struct Node* Insert(struct Node* head, int data);
 
 int main() {
 	struct Node* head; // local variable
-	head = Insert(head, 2);
-	head = Insert(head, 4);
-	head = Insert(head, 6);
-	head = Insert(head, 8);
+	int n, i, x;
+
+	printf("Enter the number of elements in the list> ");
+	scanf("%d", &n);
+
+	for(i = 0; i < n; i++) {
+		printf("\nEnter element %d> ", i + 1);
+		scanf("%d", &x);
+		head = Insert(head, x);
+	}
 	Print(head);
 	head = Reverse(head);
 	Print(head);
