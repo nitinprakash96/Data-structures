@@ -47,7 +47,7 @@ void insertAt(struct DLLNode **head, int data, int position) {
 }
 
 struct DLLNode *getNewNode(int data) {
-	struct DLLNode * newNode = (struct DLLNode*)malloc( sizeof(struct DLLNode) );
+	struct DLLNode *newNode = (struct DLLNode*)malloc( sizeof(struct DLLNode) );
 	newNode -> next = NULL;
 	newNode -> prev = NULL;
 	newNode -> data = data;
@@ -55,9 +55,9 @@ struct DLLNode *getNewNode(int data) {
 	return newNode;
 }
 
-struct DLLNode *getNodeAt(struct DLLNode * head, int position) {
+struct DLLNode *getNodeAt(struct DLLNode *head, int position) {
 	int currentPosition = 0;
-	struct DLLNode * currentNode = head;
+	struct DLLNode *urrentNode = head;
 
 	while (currentPosition < position) {
 		currentPosition++;
@@ -125,7 +125,7 @@ void deleteAt(struct DLLNode **head, int position) {
 		return;
 	}
 
-	struct DLLNode * nodeToDelete = getNodeAt(*head, position);
+	struct DLLNode *nodeToDelete = getNodeAt(*head, position);
 
 	if (isTailNode(nodeToDelete)) { 
 		// Deletion at end
@@ -133,13 +133,13 @@ void deleteAt(struct DLLNode **head, int position) {
 		free(nodeToDelete);
 	} else if(isHeadNode(nodeToDelete)) { 
 		// Deletion at the beginning
-		struct DLLNode * headAlias = *head;
+		struct DLLNode *headAlias = *head;
 		*head = (*head) -> next;
 		free(headAlias);
 	} else { 
 		// Deletion in the middle of the list
-		(nodeToDelete->prev) -> next = nodeToDelete -> next;
-		(nodeToDelete->next) -> prev = nodeToDelete -> prev;
+		(nodeToDelete -> prev) -> next = nodeToDelete -> next;
+		(nodeToDelete -> next) -> prev = nodeToDelete -> prev;
 		free(nodeToDelete);
 	}
 
