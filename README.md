@@ -6,7 +6,7 @@ give as a college assignment.
 * List Currently includes implementation of  
 
 
-	* ##[Linked List](/Linked List)
+	* ##[Linked List](/Linked list)
 	 
 	* ##[Doubly Linked List](/Linked List/Doubly Linked List)
 	
