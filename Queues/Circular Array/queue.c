@@ -61,14 +61,3 @@ int dequeue(Queue *queue)  {
     }
 }
 
-void Print(Queue *queue) {
-	int count = (queue->rear + queue->capacity - queue->front) % queue->capacity + 1;
-	int i;
-
-	printf("Queue> ");
-	for(i = 0; i < count; i++) {
-		int index = (queue->front + i) % queue->capacity;
-		printf("%d", queue->array[index]);
-	}
-	printf("\n");
-}
