@@ -18,5 +18,7 @@ give as a college assignment.
   
   * ##Searching Algorithms
   
+  * ## Queues 
+  
 ##Note
 Still more to learn and more to push.
