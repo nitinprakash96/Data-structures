@@ -6,19 +6,17 @@ give as a college assignment.
 * List Currently includes implementation of  
 
 
-	* ##Linked List
+	* ##[Linked List](/Linked List)
 	 
-	* ##Doubly Linked List
+	* ##[Doubly Linked List](/Linked List/Doubly Linked List)
 	
-	* ##Circular Linked List
+	* ##[Circular Linked List](/Linked List/Circular Linked List)
 
   * ##Arrays
   
   * ##Sorting Algorithms
   
   * ##Searching Algorithms
-  
-  * ## Queues 
   
 ##Note
 Still more to learn and more to push.
