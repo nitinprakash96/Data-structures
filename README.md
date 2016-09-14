@@ -6,25 +6,23 @@ give as a college assignment.
 * List Currently includes implementation of  
 
 
-<<<<<<< HEAD
 	* ##[Linked List](/Linked List)
 	 
 	* ##[Doubly Linked List](/Linked List/Doubly Linked List)
 	
 	* ##[Circular Linked List](/Linked List/Circular Linked List)
-=======
+
 	* ##[Linked List](/Linked list)
 	 
 	* ##[Doubly Linked List](/Linked list/Doubly Linked List)
 	
 	* ##[Circular Linked List](/Linked list/Circular Linked List)
->>>>>>> 063302b4b7165c75445ff067f0287c85cd4c6336
 
-  * ##[Arrays](/Arrays)
+	* ##[Arrays](/Arrays)
   
-  * ##[Sorting Algorithms](/Sorting)
+  	* ##[Sorting Algorithms](/Sorting)
   
-  * ##[Searching Algorithms](/Searching)
+  	* ##[Searching Algorithms](/Searching)
   
 ##Note
 Still more to learn and more to push.
