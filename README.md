@@ -5,24 +5,23 @@ give as a college assignment.
 * This includes implementation of some of the most common data structures alogorithmic operations.
 * List Currently includes implementation of  
 
+	* ##[Arrays](/Arrays)
+	
+	* ##[Circular Linked List](/Linked list/Circular Linked List)
 
 	* ##[Linked List](/Linked List)
 	 
 	* ##[Doubly Linked List](/Linked List/Doubly Linked List)
-	
-	* ##[Circular Linked List](/Linked List/Circular Linked List)
 
 	* ##[Linked List](/Linked list)
-	 
-	* ##[Doubly Linked List](/Linked list/Doubly Linked List)
 	
-	* ##[Circular Linked List](/Linked list/Circular Linked List)
-
-	* ##[Arrays](/Arrays)
+	* ##[Searching Algorithms](/Searching)
   
   	* ##[Sorting Algorithms](/Sorting)
-  
-  	* ##[Searching Algorithms](/Searching)
+  	
+	* ##[Stacks](/Stacks)
+	
+	* ##[Queues](/Queues) 
   
 ##Note
 Still more to learn and more to push.
