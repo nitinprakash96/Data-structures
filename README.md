@@ -19,9 +19,19 @@ give as a college assignment.
   
   	* ##[Sorting Algorithms](/Sorting)
   	
-	* ##[Stacks](/Stacks)
+	* ##[BIT](/BIT)
 	
-	* ##[Queues](/Queues) 
+	* ##[Binary Search Trees](/Trees/BinarySearchTrees) 
+
+	* ##[Heaps](/Heaps) 
+
+	* ##[Graphs](/Graphs) 
+
+	* ##[Disjoint Set Union](/DisjointSetUnion) 
   
+  	* ##[Trie](/Trees/Trie) 
+
+  	* ##[String Algorithms](/String Algorithms) 
+
 ##Note
 Still more to learn and more to push.
