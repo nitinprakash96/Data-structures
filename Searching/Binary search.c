@@ -10,6 +10,7 @@ int BinarySearch(int first,int last,int *a,int x) {
 	int mid;
 
 	while(first <= last) {
+		// Evrytime we get to the middle position of the most appropriate portion of the array
 		mid = (first + last) / 2;
 		if(a[mid] < x) {
 			first = mid + 1;
@@ -46,8 +47,8 @@ int main() {
 	lower = 0;
   	upper = n;
 
-	//Sort the unsorted array first using buuble sort
-  	for(i = 0; i < n; i++) {
+	//Sort the unsorted array first using bubble sort  complexity being O(n^2)
+   	for(i = 0; i < n; i++) {
       		for(j = i + 1; j < n; j++) {
           		if(arr[i] > arr[j]) {
             			temp = arr[i];
@@ -67,8 +68,8 @@ int main() {
 	if (ans == -1)
     		printf("The element %d is not present in the array\n", search);
   	else
-    		printf("The element %d is in position %d\n", search, ans);
-	//to get 1 indexed search replace ans by ans + 1
+    		printf("The element %d is in position %d as 1-based Indexing\n", search, ans+1);
+	//to get 0 indexed search replace ans by ans 
   
 return 0;
 }
