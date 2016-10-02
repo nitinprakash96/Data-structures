@@ -1,6 +1,13 @@
 /*
 * Binary search algorithm implementation.
 * The position determined by the following search algorithm is 0 indexed.
+*
+* This algorithm is recursive and works in the following way:
+*	1. Sort the array from smallest to largest.
+*	2. Compare the middle array element to the element you are searching for.
+*	3. If the middle element is the element to be found you are done. 
+*	4. If the middle element is larger than your element you search for your element with binary search in the left half of the list.
+*	5. If the middle element is smaller than your element you search for your element with binary search in the right half of the list.
 */
 
 #include<stdio.h>
