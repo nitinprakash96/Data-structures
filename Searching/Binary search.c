@@ -46,7 +46,7 @@ int main() {
 	lower = 0;
   	upper = n;
 
-	//Sort the unsorted array first using buuble sort
+	//Sort the unsorted array first using bubble sort
   	for(i = 0; i < n; i++) {
       		for(j = i + 1; j < n; j++) {
           		if(arr[i] > arr[j]) {
