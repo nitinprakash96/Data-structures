@@ -3,7 +3,7 @@
 
 using namespace std;
  
-// To heapify a subtree rooted with node i which is
+// To maintain the heap property a subtree rooted with node i
 void heapify(int arr[], int n, int i) {		// n is size of heap
 
 	int largest = i;  // Initialize largest as root
