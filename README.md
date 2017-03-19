@@ -4,35 +4,35 @@
 
 * This includes implementation of some of the most common data structures algorithmic operations.
 
-* List Currently includes implementation of  
+* List currently includes implementation of  
 
 	* ## [Arrays](/Arrays)
 
-  * ## [Circular Linked List](/Linked list/Circular Linked List)
+	* ## [Circular Linked List](/Linked list/Circular Linked List)
 
-  * ## [Linked List](/Linked List)
+	* ## [Linked List](/Linked List)
 
-  * ## [Doubly Linked List](/Linked List/Doubly Linked List)
+	* ## [Doubly Linked List](/Linked List/Doubly Linked List)
 
-  * ## [Linked List](/Linked list)
+	* ## [Linked List](/Linked list)
 
-  * ## [Searching Algorithms](/Searching)
+  	* ## [Searching Algorithms](/Searching)
 
-  * ## [Sorting Algorithms](/Sorting)
+  	* ## [Sorting Algorithms](/Sorting)
 
-  * ## [BIT](/BIT)
+	* ## [BIT](/BIT)
 
-  * ## [Binary Search Trees](/Trees/BinarySearchTrees)
+  	* ## [Binary Search Trees](/Trees/BinarySearchTrees)
 
-  * ## [Heaps](/Heaps)
+	* ## [Heaps](/Heaps)
 
-  * ## [Graphs](/Graphs)
+	* ## [Graphs](/Graphs)
 
-  * ## [Disjoint Set Union](/DisjointSetUnion)
+	* ## [Disjoint Set Union](/DisjointSetUnion)
 
-  * ## [Trie](/Trees/Trie)
+	* ## [Trie](/Trees/Trie)
 
-  * ## [String Algorithms](/String Algorithms)
+	* ## [String Algorithms](/String Algorithms)
 
 ## Note
 Still more to learn and more to push.
