@@ -1,8 +1,9 @@
 # Data Structures
 
-* I made this repo to helpout the students like me to save some time from this shitty language which professors like to
-give as a college assignment.
-* This includes implementation of some of the most common data structures alogorithmic operations.
+* This repository is basically for students that have trouble finding and learning Algorithms all at one place.
+
+* This includes implementation of some of the most common data structures algorithmic operations.
+
 * List Currently includes implementation of  
 
 	* ## [Arrays](/Arrays)
@@ -19,15 +20,15 @@ give as a college assignment.
 
   * ## [Sorting Algorithms](/Sorting)
 
-	* ## [BIT](/BIT)
+  * ## [BIT](/BIT)
 
-	* ## [Binary Search Trees](/Trees/BinarySearchTrees)
+  * ## [Binary Search Trees](/Trees/BinarySearchTrees)
 
-	* ## [Heaps](/Heaps)
+  * ## [Heaps](/Heaps)
 
-	* ## [Graphs](/Graphs)
+  * ## [Graphs](/Graphs)
 
-	* ## [Disjoint Set Union](/DisjointSetUnion)
+  * ## [Disjoint Set Union](/DisjointSetUnion)
 
   * ## [Trie](/Trees/Trie)
 
