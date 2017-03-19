@@ -8,15 +8,15 @@
 
 	* ## [Arrays](/Arrays)
 
-	* ## [Circular Linked List](/Linked list/Circular Linked List)
+  * ## [Circular Linked List](/Linked list/Circular Linked List)
 
-	* ## [Linked List](/Linked List)
+  * ## [Linked List](/Linked List)
 
-	* ## [Doubly Linked List](/Linked List/Doubly Linked List)
+  * ## [Doubly Linked List](/Linked List/Doubly Linked List)
 
-	* ## [Linked List](/Linked list)
+  * ## [Linked List](/Linked list)
 
-	* ## [Searching Algorithms](/Searching)
+  * ## [Searching Algorithms](/Searching)
 
   * ## [Sorting Algorithms](/Sorting)
 
